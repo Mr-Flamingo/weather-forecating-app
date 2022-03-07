@@ -122,7 +122,7 @@ function Result({ data }) {
           <div className="card h-card border-secondary mb-3">
             <div className="card-body text-primary humidity-div">
               <h5 className="card-title">
-                {isToday == 1 ? "humidity" : "Average Humidity"}
+                {isToday == 1 ? "Humidity" : "Avg Humidity"}
               </h5>
               <h2 className="position-absolute top-50 start-50 translate-middle">
                 {current.humidity || current.avghumidity}%
